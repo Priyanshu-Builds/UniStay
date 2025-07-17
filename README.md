@@ -25,6 +25,20 @@ UniStay is a machine learning-based recommendation engine that helps students fi
 
 ---
 
+## 🔐 API Key Required
+
+This project uses a **Geolocation API (e.g., Foursquare, Google Maps, etc.)** for address-to-coordinate conversion or place search.
+
+> **Important:** The API key is not included in this repository for security reasons.
+
+### ➤ To run the notebook successfully:
+
+1. **Get your own API key** from the provider (e.g., [Foursquare Developer Console](https://developer.foursquare.com/)).
+2. In the notebook, locate the line that looks like:
+
+   ```python
+   API_KEY = "YOUR_API_KEY_HERE"
+
 ## 🛠️ Technologies Used
 
 - **Languages/Libraries**: Python, NumPy, Pandas, Scikit-learn, MiniSom
